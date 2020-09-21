@@ -1,0 +1,39 @@
+{
+  "name": "easysubtitles",
+  "version": "1.0.0",
+  "description": "Subtitles Downloader",
+  "bin": {
+    "subtitle": "cli.js",
+    "sd": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nileshdas/easySubtitles.git"
+  },
+  "keywords": [
+    "movies",
+    "subtitles",
+    "cli"
+  ],
+  "author": "Nilesh Das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nileshdas/easySubtitles/issues"
+  },
+  "homepage": "https://github.com/nileshdas/easySubtitles#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "is-video": "^1.0.1",
+    "meow": "^3.3.0",
+    "path": "^0.12.7",
+    "pinkie-promise": "^2.0.1",
+    "progress": "^2.0.3",
+    "q": "^1.5.1"
+  }
+}
