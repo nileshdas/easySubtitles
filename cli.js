@@ -14,15 +14,15 @@ var filesArray = [];
 var cli = meow({
   help: [
     "Help\n",
-    "> subdownload",
+    "> subtitle",
     "To download subtitles for all the files present in current folder\n",
-    "> subdownload --listLangs",
+    "> subtitle --listLangs",
     "To list available languages for subtitles\n",
-    "> subdownload --deep",
+    "> subtitle --deep",
     "To download subtitles for all the files present in current folder as well as in subfolder\n",
-    '> subdownload "File Name.mkv"',
+    '> subtitle "File Name.mkv"',
     "To download subtitles for specific file\n",
-    '> subdownload "File1.mkv" "File2.avi" .... "Filen"',
+    '> subtitle "File1.mp4" "File2.3gp" .... "Filen"',
     "To download subtitles for more then one file\n",
   ],
 });
