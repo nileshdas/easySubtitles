@@ -45,3 +45,5 @@ subd.subdownload(filesArray).then(function (obj) {
   //=> { success: [successfile1,successfile2], failed: [failedfile1]}
 });
 ```
+
+![Demo](https://media.giphy.com/media/r5GxhHSxVnET30yzkU/giphy.gif)
