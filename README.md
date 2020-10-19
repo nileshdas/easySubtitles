@@ -45,13 +45,3 @@ subd.subdownload(filesArray).then(function (obj) {
   //=> { success: [successfile1,successfile2], failed: [failedfile1]}
 });
 ```
-
-## Demo
-
-![Demo image](https://github.com/beatfreaker/subdownloader/blob/master/demo/demo.gif)
-
-Note : This module uses [SubDB](http://thesubdb.com/) to download subtitles.
-
-## License
-
-MIT © [Chintan Radia](http://beatfreaker.github.io/)
